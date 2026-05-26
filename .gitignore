@@ -1,0 +1,75 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# compiled output
+dist
+.next
+tmp
+out-tsc
+*.tsbuildinfo
+.expo
+.expo-shared
+
+# dependencies
+node_modules
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Agent / local tooling (do not publish)
+.agents/
+artifacts/
+
+# Cleanup quarantine — dead code staging area, never push
+_cleanup_quarantine/
+
+# Optional local copies (not part of the public repository; keep outside Git if preferred)
+/PROJ_PLAN.md
+/doc/ARCHITECTURE.md
+**/INTERVIEW*
+/attached_assets/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Local caches
+.cache/
+.local/
